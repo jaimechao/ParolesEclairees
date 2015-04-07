@@ -1,0 +1,39 @@
+- cue "init"
+- description "something about this cue"
+# ###########################################
+# 
+/lampe.chevet/data/active 1
+/lampe.chevet/scale/highOutput 255
+/lampe.chevet/scale/lowOutput 0
+/lampe.chevet/scale/metro 120
+/lampe.chevet/timeMetro 23
+/lampe.chevet/effects/type 1
+# 
+/lampe.germaine/data/active 1
+/lampe.germaine/scale/highOutput 255
+/lampe.germaine/scale/lowOutput 0
+/lampe.germaine/scale/metro 120
+/lampe.germaine/timeMetro 23
+/lampe.germaine/effects/type 1
+# 
+/lampe.grosse/adc 1
+/lampe.grosse/data/active 1
+/lampe.grosse/inputType 1
+/lampe.grosse/effects/type 1
+/lampe.grosse/scale/highOutput 255
+/lampe.grosse/scale/lowOutput 0
+/lampe.grosse/scale/metro 120
+/lampe.grosse/timeMetro 23
+# 
+/lampe.parole/adc 1
+/lampe.parole/data/active 1
+/lampe.parole/effects/type 1
+/lampe.parole/inputType 1
+/lampe.parole/inversion 0
+/lampe.parole/scale/highOutput 255
+/lampe.parole/scale/lowOutput 0
+/lampe.parole/scale/metro 120
+/lampe.parole/timeMetro 23
+# 
+# ###########################################
+
