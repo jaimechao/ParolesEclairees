@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 352.0, 77.0, 1056.0, 806.0 ],
+		"rect" : [ 384.0, 63.0, 1056.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -288,7 +288,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 614.5, 657.0, 79.0, 18.0 ],
-					"text" : "channel 2 $1"
+					"text" : "channel 4 $1"
 				}
 
 			}
@@ -317,7 +317,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 440.0, 657.0, 79.0, 18.0 ],
-					"text" : "channel 1 $1"
+					"text" : "channel 3 $1"
 				}
 
 			}
@@ -345,7 +345,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 266.0, 664.0, 79.0, 18.0 ],
-					"text" : "channel 4 $1"
+					"text" : "channel 2 $1"
 				}
 
 			}
@@ -419,7 +419,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 68.0, 663.0, 79.0, 18.0 ],
-					"text" : "channel 3 $1"
+					"text" : "channel 1 $1"
 				}
 
 			}
@@ -963,21 +963,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "LightView.js",
-				"bootpath" : "/Users/jaimechao/Projets/ParolesEclairees",
+				"bootpath" : "/Users/jaimechao/Documents/Max/ParolesEclairees",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "light.model.maxpat",
-				"bootpath" : "/Users/jaimechao/Projets/ParolesEclairees",
+				"bootpath" : "/Users/jaimechao/Documents/Max/ParolesEclairees",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "light.view.maxpat",
-				"bootpath" : "/Users/jaimechao/Projets/ParolesEclairees",
+				"bootpath" : "/Users/jaimechao/Documents/Max/ParolesEclairees",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1008,6 +1008,10 @@
 			}
 , 			{
 				"name" : "j.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
