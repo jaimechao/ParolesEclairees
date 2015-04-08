@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x86"
+			"revision" : 10,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 800.0, 82.0, 640.0, 479.0 ],
+		"rect" : [ 632.0, 82.0, 640.0, 479.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 533.0, 8.0, 86.0, 20.0 ],
+					"text" : "j.remote value"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -68,8 +81,8 @@
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 254.0, 430.0, 77.0, 20.0 ],
 					"text" : "j.remote adc"
 				}
@@ -84,7 +97,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 513.0, 28.0, 64.0, 64.0 ],
+					"patching_rect" : [ 533.0, 44.0, 64.0, 64.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 384.0, 60.059937, 42.0, 42.0 ]
 				}
@@ -97,8 +110,8 @@
 					"id" : "obj-52",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 142.0, 364.0, 95.0, 20.0 ],
 					"text" : "j.remote ctrl_val"
 				}
@@ -111,8 +124,8 @@
 					"id" : "obj-51",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.5, 364.0, 73.0, 20.0 ],
 					"text" : "j.remote ctrl"
 				}
@@ -125,8 +138,8 @@
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 445.0, 79.0, 20.0 ],
 					"text" : "j.remote solo"
 				}
@@ -139,8 +152,8 @@
 					"id" : "obj-49",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 57.0, 445.0, 84.0, 20.0 ],
 					"text" : "j.remote mute"
 				}
@@ -301,8 +314,8 @@
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.0, 295.059937, 151.0, 20.0 ],
 					"text" : "j.remote effects/delayTime"
 				}
@@ -457,8 +470,8 @@
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 57.0, 290.0, 151.0, 20.0 ],
 					"text" : "j.remote effects/delayTime"
 				}
@@ -487,8 +500,8 @@
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 459.0, 434.0, 118.0, 20.0 ],
 					"text" : "j.remote effects/type"
 				}
@@ -531,8 +544,8 @@
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 459.0, 300.0, 105.0, 20.0 ],
 					"text" : "j.remote inversion"
 				}
@@ -545,8 +558,8 @@
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 61.0, 198.0, 147.0, 20.0 ],
 					"text" : "j.remote scale/highOutput"
 				}
@@ -559,8 +572,8 @@
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 61.0, 124.0, 143.0, 20.0 ],
 					"text" : "j.remote scale/lowOutput"
 				}
@@ -603,8 +616,8 @@
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 459.0, 160.0, 98.0, 20.0 ],
 					"text" : "j.remote random"
 				}
@@ -647,8 +660,8 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 459.0, 232.0, 87.0, 20.0 ],
 					"text" : "j.remote drunk"
 				}
@@ -684,8 +697,8 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 44.0, 41.0, 20.0 ],
 					"text" : "j.view"
 				}
@@ -696,8 +709,7 @@
 					"id" : "obj-9",
 					"maxclass" : "j.ui",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 61.0, 3.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.059937, 450.0, 140.0 ],
@@ -1029,22 +1041,10 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "LightView.js",
-				"bootpath" : "/Users/jaimechao/Documents/Max/ParolesEclairees",
+				"bootpath" : "/Users/Utilisateur/Documents/pC/ParolesEclairees",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
