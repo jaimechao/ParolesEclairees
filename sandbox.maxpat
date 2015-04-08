@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 48.0, 239.0, 962.0, 508.0 ],
+		"rect" : [ 532.0, 237.0, 962.0, 508.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,12 +31,68 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 424.0, 32.0, 130.0, 20.0 ],
+					"text" : "j.parameter sound/test"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 567.0, 100.0, 130.0, 20.0 ],
+					"text" : "j.parameter test/sound"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 567.0, 65.0, 107.0, 20.0 ],
+					"text" : "j.parameter sound"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 567.0, 139.0, 145.0, 18.0 ],
+					"text" : "filter/set test name sound"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 470.5, 56.0, 87.0, 20.0 ],
+					"patching_rect" : [ 567.0, 32.0, 87.0, 20.0 ],
 					"text" : "j.return source"
 				}
 
@@ -274,7 +330,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
-					"items" : [ "lampe.chevet", ",", "lampe.chevet/ctrl", ",", "lampe.chevet/ctrl_val", ",", "lampe.chevet/drunk", ",", "lampe.chevet/effects", ",", "lampe.chevet/effects/delayTime", ",", "lampe.chevet/effects/type", ",", "lampe.chevet/input", ",", "lampe.chevet/inversion", ",", "lampe.chevet/model", ",", "lampe.chevet/preset", ",", "lampe.chevet/random", ",", "lampe.chevet/scale", ",", "lampe.chevet/scale/highOutput", ",", "lampe.chevet/scale/lowOutput", ",", "lampe.chevet/scale/metro", ",", "lampe.chevet/timeMetro", ",", "lampe.germaine", ",", "lampe.germaine/ctrl", ",", "lampe.germaine/ctrl_val", ",", "lampe.germaine/drunk", ",", "lampe.germaine/effects", ",", "lampe.germaine/effects/delayTime", ",", "lampe.germaine/effects/type", ",", "lampe.germaine/input", ",", "lampe.germaine/inversion", ",", "lampe.germaine/model", ",", "lampe.germaine/preset", ",", "lampe.germaine/random", ",", "lampe.germaine/scale", ",", "lampe.germaine/scale/highOutput", ",", "lampe.germaine/scale/lowOutput", ",", "lampe.germaine/scale/metro", ",", "lampe.germaine/timeMetro", ",", "lampe.grosse", ",", "lampe.grosse/ctrl", ",", "lampe.grosse/ctrl_val", ",", "lampe.grosse/drunk", ",", "lampe.grosse/effects", ",", "lampe.grosse/effects/delayTime", ",", "lampe.grosse/effects/type", ",", "lampe.grosse/input", ",", "lampe.grosse/inversion", ",", "lampe.grosse/model", ",", "lampe.grosse/preset", ",", "lampe.grosse/random", ",", "lampe.grosse/scale", ",", "lampe.grosse/scale/highOutput", ",", "lampe.grosse/scale/lowOutput", ",", "lampe.grosse/scale/metro", ",", "lampe.grosse/timeMetro", ",", "lampe.parole", ",", "lampe.parole/ctrl", ",", "lampe.parole/ctrl_val", ",", "lampe.parole/drunk", ",", "lampe.parole/effects", ",", "lampe.parole/effects/delayTime", ",", "lampe.parole/effects/type", ",", "lampe.parole/input", ",", "lampe.parole/inversion", ",", "lampe.parole/model", ",", "lampe.parole/preset", ",", "lampe.parole/random", ",", "lampe.parole/scale", ",", "lampe.parole/scale/highOutput", ",", "lampe.parole/scale/lowOutput", ",", "lampe.parole/scale/metro", ",", "lampe.parole/timeMetro", ",", "light", ",", "light(view)", ",", "light(view).1", ",", "light(view).1/ctrl", ",", "light(view).1/ctrl_val", ",", "light(view).1/drunk(toggle)", ",", "light(view).1/effects", ",", "light(view).1/effects/delayTime", ",", "light(view).1/effects/delayTime(number)", ",", "light(view).1/effects/type(number)", ",", "light(view).1/inversion(toggle)", ",", "light(view).1/model", ",", "light(view).1/mute", ",", "light(view).1/random(toggle)", ",", "light(view).1/scale", ",", "light(view).1/scale/highOutput(slider)", ",", "light(view).1/scale/lowOutput(slider)", ",", "light(view).1/solo", ",", "light(view).1/ui", ",", "light(view)/ctrl(toggle)", ",", "light(view)/ctrl_val(slider)", ",", "light(view)/drunk(toggle)", ",", "light(view)/effects", ",", "light(view)/effects/delayTime(number)", ",", "light(view)/effects/delayTime(slider)", ",", "light(view)/effects/type", ",", "light(view)/inversion(toggle)", ",", "light(view)/model", ",", "light(view)/mute(toggle)", ",", "light(view)/random(toggle)", ",", "light(view)/scale", ",", "light(view)/scale/highOutput(slider)", ",", "light(view)/scale/lowOutput(slider)", ",", "light(view)/solo(toggle)", ",", "light(view)/ui", ",", "light/ctrl", ",", "light/ctrl_val", ",", "light/drunk", ",", "light/effects", ",", "light/effects/delayTime", ",", "light/effects/type", ",", "light/input", ",", "light/inversion", ",", "light/model", ",", "light/mute", ",", "light/preset", ",", "light/random", ",", "light/scale", ",", "light/scale/highOutput", ",", "light/scale/lowOutput", ",", "light/scale/metro", ",", "light/timeMetro", ",", "source" ],
+					"items" : [ "sound", ",", "test/sound" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -498,6 +554,15 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.namespace.mxo",
@@ -509,6 +574,10 @@
 			}
 , 			{
 				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
  ]

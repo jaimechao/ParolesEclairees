@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 39.0, 61.0, 956.0, 699.0 ],
+		"rect" : [ 39.0, 61.0, 968.0, 699.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -571,7 +571,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 235.000031, 184.0, 111.0, 20.0 ],
+					"patching_rect" : [ 20.666687, 346.0, 111.0, 20.0 ],
 					"text" : "j.remote timeMetro"
 				}
 
@@ -585,7 +585,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 236.666687, 230.0, 48.0, 20.0 ],
+					"patching_rect" : [ 22.333344, 392.0, 48.0, 20.0 ],
 					"text" : "qmetro"
 				}
 
@@ -599,7 +599,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.666687, 364.0, 50.0, 18.0 ]
+					"patching_rect" : [ 22.333344, 526.0, 50.0, 18.0 ]
 				}
 
 			}
@@ -613,7 +613,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 267.666687, 250.0, 119.0, 100.0 ],
+					"patching_rect" : [ 53.333344, 412.0, 119.0, 100.0 ],
 					"text" : "j.message input @type decimal @range 0. 1. @description \"Normalized float input between 0. and 1.\""
 				}
 
@@ -2316,6 +2316,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2594,6 +2603,35 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
