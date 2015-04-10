@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 33.0, 44.0, 1354.0, 806.0 ],
+		"rect" : [ 27.0, 44.0, 1354.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,67 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "open" ],
+					"patching_rect" : [ 525.5, 39.254822, 44.0, 20.0 ],
+					"text" : "t open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.352306, 0.352306, 0.352306, 1.0 ],
+					"bgcolor2" : [ 0.464597, 0.866667, 0.460315, 1.0 ],
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-81",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 525.5, 13.321899, 55.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 507.0, 21.0, 59.0, 20.0 ],
+					"text" : "Values",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-85",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 525.5, 66.321899, 58.0, 21.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-87",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 525.5, 95.0, 122.0, 20.0 ],
+					"text" : "matriceValue.maxpat"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -755,6 +816,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 527.0, 148.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 16.0, 527.0, 148.0, 18.0 ],
 					"text" : "model:address /lampe.ctrl"
 				}
 
@@ -769,7 +832,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 557.0, 450.0, 140.0 ],
-					"presentation_rect" : [ 30.0, 30.0, 450.0, 140.0 ]
+					"presentation" : 1,
+					"presentation_rect" : [ 16.0, 557.0, 450.0, 140.0 ]
 				}
 
 			}
@@ -783,7 +847,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 385.0, 450.0, 140.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 450.0, 140.0 ]
+					"presentation" : 1,
+					"presentation_rect" : [ 16.0, 385.0, 450.0, 140.0 ]
 				}
 
 			}
@@ -2062,7 +2127,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1138.0, 118.0, 302.0, 402.0 ],
+						"rect" : [ 763.0, 399.0, 302.0, 402.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2221,7 +2286,9 @@
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-20", 0 ]
+									"source" : [ "obj-20", 0 ],
+									"watchpoint_flags" : 1,
+									"watchpoint_id" : 9
 								}
 
 							}
@@ -2364,6 +2431,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 185.0, 165.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 16.0, 185.0, 165.0, 18.0 ],
 					"text" : "model:address /lampe.parole"
 				}
 
@@ -2378,6 +2447,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 358.0, 172.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 16.0, 358.0, 172.0, 18.0 ],
 					"text" : "model:address /lampe.batterie"
 				}
 
@@ -2392,7 +2463,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 212.0, 450.0, 140.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 450.0, 140.0 ]
+					"presentation" : 1,
+					"presentation_rect" : [ 16.0, 212.0, 450.0, 140.0 ]
 				}
 
 			}
@@ -2404,7 +2476,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 95.0, 37.0, 20.0 ],
+					"patching_rect" : [ 7.0, 51.0, 37.0, 20.0 ],
 					"text" : "dac~"
 				}
 
@@ -2418,7 +2490,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 101.0, 95.0, 47.0, 20.0 ],
+					"patching_rect" : [ 7.0, 11.0, 47.0, 20.0 ],
 					"text" : "adc~ 2"
 				}
 
@@ -2503,7 +2575,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 101.757812, 36.0, 18.0 ],
+					"patching_rect" : [ 215.0, 70.757812, 36.0, 18.0 ],
 					"text" : "write"
 				}
 
@@ -2517,7 +2589,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.0, 76.0, 51.0, 18.0 ],
+					"patching_rect" : [ 200.0, 38.0, 51.0, 18.0 ],
 					"text" : "new init"
 				}
 
@@ -2531,7 +2603,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 223.0, 153.0, 36.0, 20.0 ],
+					"patching_rect" : [ 215.0, 122.0, 36.0, 20.0 ],
 					"text" : "j.cue"
 				}
 
@@ -2561,6 +2633,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 87.5, 11.0, 44.0, 44.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 87.5, 11.0, 44.0, 44.0 ],
 					"prototypename" : "helpfile"
 				}
 
@@ -3481,6 +3555,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-85", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3535,6 +3618,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-129", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3557,6 +3649,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-85", 0 ]
 				}
 
 			}
@@ -3661,6 +3762,27 @@
 				"name" : "thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "matriceValue.maxpat",
+				"bootpath" : "/Users/jaimechao/Documents/Max/ParolesEclairees",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Interface.maxpat",
+				"bootpath" : "/Users/jaimechao/Documents/Max/ParolesEclairees",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "imp.dmx.get.maxpat",
+				"bootpath" : "/Users/jaimechao/Documents/Max/Packages/imp.dmx/patchers",
+				"patcherrelativepath" : "../Packages/imp.dmx/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
