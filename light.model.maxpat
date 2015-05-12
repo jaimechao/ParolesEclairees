@@ -134,8 +134,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 84.333344, 155.0, 34.0, 18.0 ],
-					"text" : "$1 1"
+					"patching_rect" : [ 84.333344, 155.0, 53.0, 18.0 ],
+					"text" : "set 1 $1"
 				}
 
 			}
@@ -227,10 +227,10 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 84.333344, 187.24231, 57.0, 20.0 ],
-					"text" : "adc~ 1 2"
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 84.333344, 187.24231, 47.0, 20.0 ],
+					"text" : "adc~ 1"
 				}
 
 			}
@@ -2260,7 +2260,7 @@
 					"hidden" : 0,
 					"source" : [ "obj-24", 0 ],
 					"watchpoint_flags" : 1,
-					"watchpoint_id" : 1
+					"watchpoint_id" : 4
 				}
 
 			}
