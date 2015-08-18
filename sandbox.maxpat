@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 532.0, 237.0, 962.0, 508.0 ],
+		"rect" : [ 87.0, 55.0, 962.0, 508.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -330,7 +330,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
-					"items" : [ "sound", ",", "test/sound" ],
+					"items" : [ "sound", ",", "sound/test", ",", "source", ",", "test", ",", "test/sound" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
