@@ -151,7 +151,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 863.0, 298.0, 50.0, 22.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "bang"
 				}
 
 			}
