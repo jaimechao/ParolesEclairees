@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 67.0, 109.0, 326.0, 362.0 ],
+		"rect" : [ 67.0, 109.0, 323.0, 461.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,26 +38,14 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 30.0, 150.0, 20.0 ],
-					"style" : "",
-					"text" : "todo : do better"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.0, 234.0, 97.0, 22.0 ],
+					"patching_rect" : [ 97.5, 279.0, 101.0, 22.0 ],
 					"style" : "",
-					"text" : "append address"
+					"text" : "prepend address"
 				}
 
 			}
@@ -68,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 275.0, 43.0, 22.0 ],
+					"patching_rect" : [ 97.5, 319.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "j.send"
 				}
@@ -81,7 +69,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 293.0, 30.0, 30.0 ],
+					"patching_rect" : [ 97.5, 364.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -245,12 +233,12 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "j.namespace.mxo",
-				"type" : "iLaX"
+				"name" : "j.namespace.mxe",
+				"type" : "iLaF"
 			}
 , 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
+				"name" : "j.send.mxe",
+				"type" : "iLaF"
 			}
  ],
 		"embedsnapshot" : 0

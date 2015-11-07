@@ -87,7 +87,7 @@
 					"id" : "obj-72",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "namenu.maxpat",
+					"name" : "receivemenu.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -477,7 +477,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "namenu.maxpat",
+				"name" : "receivemenu.maxpat",
 				"bootpath" : "~/pC/ParolesEclairees",
 				"type" : "JSON",
 				"implicit" : 1
