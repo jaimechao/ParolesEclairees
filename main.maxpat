@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 822.0, 7.0, 113.0, 22.0 ],
+					"style" : "",
+					"text" : "j.parameter interval"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-63",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -328,7 +341,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1091.5, 66.0, 50.0, 62.0 ],
 					"style" : "",
-					"text" : "/main/input.clement 5"
+					"text" : "/main/adc.jaime/output 5"
 				}
 
 			}
@@ -631,30 +644,33 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.0, 93.0, 57.0, 22.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 51.0, 93.0, 97.0, 22.0 ],
 					"style" : "",
-					"text" : "r interval"
+					"text" : "j.receive interval"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 168.0, 59.0, 22.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 115.0, 168.0, 85.0, 22.0 ],
 					"style" : "",
-					"text" : "s interval"
+					"text" : "j.send interval"
 				}
 
 			}
@@ -839,13 +855,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-41",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 298.0, 50.0, 22.0 ],
+					"patching_rect" : [ 863.0, 298.0, 50.0, 35.0 ],
 					"style" : "",
-					"text" : "0."
+					"text" : "0.002706"
 				}
 
 			}

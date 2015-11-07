@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -982.0, -38.0, 214.0, 239.0 ],
+		"rect" : [ 304.0, 214.0, 214.0, 239.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -68,13 +68,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-26",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 94.0, 119.0, 101.0, 22.0 ],
+					"patching_rect" : [ 110.0, 113.0, 82.0, 35.0 ],
 					"style" : "",
-					"text" : "j.receive /interval"
+					"text" : "j.receive /main/interval"
 				}
 
 			}
@@ -121,7 +122,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 29.0, 14.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 26.0, 22.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 27.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -212,16 +213,16 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "j.receive.mxe",
-				"type" : "iLaF"
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.return.mxe",
-				"type" : "iLaF"
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.model.mxe",
-				"type" : "iLaF"
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0
