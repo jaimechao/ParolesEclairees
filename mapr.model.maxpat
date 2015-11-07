@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -990.0, -72.0, 956.0, 658.0 ],
+		"rect" : [ 34.0, 78.0, 923.0, 658.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 332.0, 150.0, 34.0 ],
+					"patching_rect" : [ 615.0, 332.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "todo : scale the output between 0 & 1 ?"
 				}
@@ -111,12 +111,12 @@
 					"id" : "obj-72",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "namenu.maxpat",
+					"name" : "sendmenu.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 148.5, 50.0, 122.0, 22.0 ],
+					"patching_rect" : [ 235.5, 21.0, 122.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 122.0, 22.0 ],
 					"viewvisibility" : 1
@@ -1161,34 +1161,34 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "namenu.maxpat",
-				"bootpath" : "~/pC/ParolesEclairees",
+				"name" : "sendmenu.maxpat",
+				"bootpath" : "~/Documents/Max/ParolesEclairees",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.send.mxe",
-				"type" : "iLaF"
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.return.mxe",
-				"type" : "iLaF"
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxe",
-				"type" : "iLaF"
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.model.mxe",
-				"type" : "iLaF"
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.namespace.mxe",
-				"type" : "iLaF"
+				"name" : "j.namespace.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxe",
-				"type" : "iLaF"
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0

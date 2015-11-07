@@ -38,6 +38,58 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-70",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 194.0, 680.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 155.0, 614.0, 193.0, 22.0 ],
+					"style" : "",
+					"text" : "j.receive main/mapper.louis/output"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1126.0, 563.0, 34.0, 22.0 ],
+					"style" : "",
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1204.0, 368.0, 64.0, 22.0 ],
+					"style" : "",
+					"text" : "readagain"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-72",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -97,7 +149,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1218.0, 420.0, 20.0, 140.0 ],
+					"patching_rect" : [ 1218.0, 433.0, 20.0, 140.0 ],
 					"size" : 256.0,
 					"style" : ""
 				}
@@ -341,7 +393,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1091.5, 66.0, 50.0, 62.0 ],
 					"style" : "",
-					"text" : "/main/adc.jaime/output 5"
+					"text" : "/main/adc.louis/output 4"
 				}
 
 			}
@@ -862,7 +914,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 863.0, 298.0, 50.0, 35.0 ],
 					"style" : "",
-					"text" : "0.002706"
+					"text" : "0.067322"
 				}
 
 			}
@@ -1087,6 +1139,16 @@
 					"hidden" : 0,
 					"midpoints" : [ 108.5, 78.0, 78.0, 78.0, 78.0, 3.0, 31.5, 3.0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1213.5, 405.0, 1203.0, 405.0, 1203.0, 420.0, 1098.0, 420.0, 1098.0, 513.0, 1121.5, 513.0 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -1383,6 +1445,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1459,6 +1530,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-68", 0 ]
 				}
 
 			}
@@ -1672,6 +1752,12 @@
 			}
 , 			{
 				"name" : "patch",
+				"bootpath" : "~/Documents/Max/ParolesEclairees",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "niveaux",
 				"bootpath" : "~/Documents/Max/ParolesEclairees",
 				"type" : "TEXT",
 				"implicit" : 1
