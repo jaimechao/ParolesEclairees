@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 67.0, 109.0, 323.0, 461.0 ],
+		"rect" : [ 493.0, 110.0, 321.0, 380.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,14 +38,55 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 118.0, 57.0, 150.0, 33.0 ],
+					"style" : "",
+					"text" : "todo : try and filter by name dynamically"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 19.0, 241.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 122.0, 0.0, 22.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.5, 279.0, 101.0, 22.0 ],
+					"patching_rect" : [ 43.0, 294.0, 34.0, 22.0 ],
 					"style" : "",
-					"text" : "prepend address"
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-4",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 58.0, 241.0, 30.0, 30.0 ],
+					"style" : ""
 				}
 
 			}
@@ -56,7 +97,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.5, 319.0, 43.0, 22.0 ],
+					"patching_rect" : [ 97.5, 347.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "j.send"
 				}
@@ -64,13 +105,14 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-1",
-					"maxclass" : "outlet",
+					"id" : "obj-3",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 97.5, 364.0, 30.0, 30.0 ],
-					"style" : ""
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 97.5, 294.0, 101.0, 22.0 ],
+					"style" : "",
+					"text" : "prepend address"
 				}
 
 			}
@@ -81,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 97.5, 234.0, 49.0, 22.0 ],
+					"patching_rect" : [ 97.5, 249.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "zl.nth 2"
 				}
@@ -94,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.5, 192.0, 145.0, 22.0 ],
+					"patching_rect" : [ 97.5, 207.0, 145.0, 22.0 ],
 					"style" : "",
 					"text" : "fromsymbol @separator :"
 				}
@@ -130,13 +172,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-45",
-					"items" : [ "Untitled", ",", "Untitled/model", ",", "Untitled/output", ",", "Untitled/preset", ",", "router", ",", "router/collName", ",", "router/cycle", ",", "router/exit", ",", "router/full", ",", "router/list", ",", "router/model", ",", "router/output", ",", "router/preset", ",", "router/random", ",", "router/solo", ",", "router/toggate", ",", "router/toggate.1", ",", "router/toggate.1/down", ",", "router/toggate.1/model", ",", "router/toggate.1/off", ",", "router/toggate.1/on", ",", "router/toggate.1/preset", ",", "router/toggate.1/setoff", ",", "router/toggate.1/seton", ",", "router/toggate.1/switch", ",", "router/toggate.1/toggle", ",", "router/toggate.1/up", ",", "router/toggate.2", ",", "router/toggate.2/down", ",", "router/toggate.2/model", ",", "router/toggate.2/off", ",", "router/toggate.2/on", ",", "router/toggate.2/preset", ",", "router/toggate.2/setoff", ",", "router/toggate.2/seton", ",", "router/toggate.2/switch", ",", "router/toggate.2/toggle", ",", "router/toggate.2/up", ",", "router/toggate.3", ",", "router/toggate.3/down", ",", "router/toggate.3/model", ",", "router/toggate.3/off", ",", "router/toggate.3/on", ",", "router/toggate.3/preset", ",", "router/toggate.3/setoff", ",", "router/toggate.3/seton", ",", "router/toggate.3/switch", ",", "router/toggate.3/toggle", ",", "router/toggate.3/up", ",", "router/toggate.4", ",", "router/toggate.4/down", ",", "router/toggate.4/model", ",", "router/toggate.4/off", ",", "router/toggate.4/on", ",", "router/toggate.4/preset", ",", "router/toggate.4/setoff", ",", "router/toggate.4/seton", ",", "router/toggate.4/switch", ",", "router/toggate.4/toggle", ",", "router/toggate.4/up", ",", "router/toggate.5", ",", "router/toggate.5/down", ",", "router/toggate.5/model", ",", "router/toggate.5/off", ",", "router/toggate.5/on", ",", "router/toggate.5/preset", ",", "router/toggate.5/setoff", ",", "router/toggate.5/seton", ",", "router/toggate.5/switch", ",", "router/toggate.5/toggle", ",", "router/toggate.5/up", ",", "router/toggate.6", ",", "router/toggate.6/down", ",", "router/toggate.6/model", ",", "router/toggate.6/off", ",", "router/toggate.6/on", ",", "router/toggate.6/preset", ",", "router/toggate.6/setoff", ",", "router/toggate.6/seton", ",", "router/toggate.6/switch", ",", "router/toggate.6/toggle", ",", "router/toggate.6/up", ",", "router/toggate.7", ",", "router/toggate.7/down", ",", "router/toggate.7/model", ",", "router/toggate.7/off", ",", "router/toggate.7/on", ",", "router/toggate.7/preset", ",", "router/toggate.7/setoff", ",", "router/toggate.7/seton", ",", "router/toggate.7/switch", ",", "router/toggate.7/toggle", ",", "router/toggate.7/up", ",", "router/toggate/down", ",", "router/toggate/model", ",", "router/toggate/off", ",", "router/toggate/on", ",", "router/toggate/preset", ",", "router/toggate/setoff", ",", "router/toggate/seton", ",", "router/toggate/switch", ",", "router/toggate/toggle", ",", "router/toggate/up", ",", "sandbox", ",", "sandbox/model", ",", "sandbox/preset" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 57.0, 148.0, 100.0, 22.0 ],
+					"patching_rect" : [ 57.0, 163.0, 100.0, 22.0 ],
 					"prefix" : "C:/",
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 0.0, 100.0, 22.0 ],
@@ -148,32 +190,33 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-44",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 57.0, 107.0, 233.0, 22.0 ],
+					"patching_rect" : [ 57.0, 107.0, 236.0, 35.0 ],
 					"style" : "",
-					"text" : "j.namespace @address / @format umenu"
+					"text" : "j.namespace @address / @format umenu @filter/list message @update 0"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-5", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -215,6 +258,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -231,14 +283,23 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "j.namespace.mxe",
-				"type" : "iLaF"
+				"name" : "j.namespace.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.send.mxe",
-				"type" : "iLaF"
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0
