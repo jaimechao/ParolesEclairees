@@ -1,0 +1,11 @@
+umenu
+	supprimer dans l'adresse "main/"
+scaler.model
+	x (init) cassé valeur min et max inversées
+togate.model
+	clean to many j.things
+router.model
+	radiobutton pour choisir le mode
+	mettre la chose 000XXX directement dans le patcher toggle_liste_gestion
+visualisation.maxpat
+	rajouter un compresseur sur l'alpha du visu jsui des lampes
