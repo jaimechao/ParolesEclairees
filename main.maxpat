@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 56.0, 81.0, 1164.0, 733.0 ],
+		"rect" : [ 199.0, 101.0, 758.0, 733.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,46 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"annotation" : "none",
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-20",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "delay.model.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 815.0, 666.0, 168.0, 47.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-19",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "delay.model.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 815.0, 617.0, 168.0, 47.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-18",
 					"linecount" : 2,
@@ -344,7 +384,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 702.318176, 595.0, 285.0, 22.0 ],
 									"style" : "",
-									"text" : "72 64 99 92 94 94 90 29 103 109 117 66"
+									"text" : "41 41 39 92 94 94 90 20 103 109 117 66"
 								}
 
 							}
@@ -2253,7 +2293,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.0, 81.0, 35.0, 22.0 ],
+					"patching_rect" : [ 150.0, 53.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "s init"
 				}
@@ -2540,7 +2580,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 51.0, 93.0, 97.0, 22.0 ],
+					"patching_rect" : [ 51.0, 95.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "j.receive interval"
 				}
@@ -2736,7 +2776,7 @@
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 130.5, 114.0, 108.0, 114.0, 108.0, 123.0, 124.5, 123.0 ],
+					"midpoints" : [ 130.5, 90.0, 162.0, 90.0, 162.0, 123.0, 124.5, 123.0 ],
 					"source" : [ "obj-14", 1 ]
 				}
 
@@ -2952,6 +2992,12 @@
 			}
 , 			{
 				"name" : "sendmenu.maxpat",
+				"bootpath" : "~/Documents/Max/ParolesEclairees",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delay.model.maxpat",
 				"bootpath" : "~/Documents/Max/ParolesEclairees",
 				"type" : "JSON",
 				"implicit" : 1

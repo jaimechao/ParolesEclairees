@@ -134,7 +134,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 469.5, 341.0, 150.0, 34.0 ],
+					"patching_rect" : [ 469.5, 341.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "todo : clean to many j.things"
 				}
@@ -580,7 +580,7 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 582.5, 279.0, 372.0, 279.0, 372.0, 192.0, 320.5, 192.0 ],
+					"midpoints" : [ 582.5, 279.0, 372.0, 279.0, 372.0, 198.0, 320.5, 198.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -780,28 +780,28 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "j.message.mxe",
-				"type" : "iLaF"
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.return.mxe",
-				"type" : "iLaF"
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.model.mxe",
-				"type" : "iLaF"
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxe",
-				"type" : "iLaF"
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.remote.mxe",
-				"type" : "iLaF"
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxe",
-				"type" : "iLaF"
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0,
