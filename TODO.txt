@@ -1,5 +1,6 @@
-umenu
+﻿umenu
 	supprimer dans l'adresse "main/"
+	filtrer le namespace par tag
 scaler.model
 	x (init) cassé valeur min et max inversées
 togate.model
@@ -7,7 +8,11 @@ togate.model
 router.model
 	radiobutton pour choisir le mode
 	mettre la chose 000XXX directement dans le patcher toggle_liste_gestion
+	Solo éteint les Toggates pour pouvoir en réactiver qu'un seul, mais renvoyer liste si change de mode ?
+	Vrai reset, notamment Cycle et Random
 visualisation.maxpat
 	rajouter un compresseur sur l'alpha du visu jsui des lampes
 déclenchement par niveau
 	quand niveau constament au-dessus du seuil, banguer à intervalle fixe
+patch
+	Meilleur moyen de remplir le coll patch
