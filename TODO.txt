@@ -9,3 +9,5 @@ router.model
 	mettre la chose 000XXX directement dans le patcher toggle_liste_gestion
 visualisation.maxpat
 	rajouter un compresseur sur l'alpha du visu jsui des lampes
+déclenchement par niveau
+	quand niveau constament au-dessus du seuil, banguer à intervalle fixe
