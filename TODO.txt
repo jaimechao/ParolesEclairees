@@ -1,4 +1,6 @@
-﻿umenu
+﻿IHM
+	Controle des boutons avec touches du clavier, envoyer des cue
+umenu
 	supprimer dans l'adresse "main/"
 	filtrer le namespace par tag
 scaler.model
