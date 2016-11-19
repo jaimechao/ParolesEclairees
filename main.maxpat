@@ -822,7 +822,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 867.5, 70.799988, 95.0, 50.0 ],
+					"patching_rect" : [ 867.5, 70.799988, 99.0, 50.0 ],
 					"style" : "",
 					"text" : "100 100 100 70 70 70 70 50 255 35 255 255"
 				}
@@ -1005,7 +1005,7 @@
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
 									"id" : "obj-30",
-									"items" : "<empty>",
+									"items" : "COM3",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2601,7 +2601,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 42.0, 196.0, 1212.0, 650.0 ],
+						"rect" : [ 26.0, 196.0, 1212.0, 650.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2690,7 +2690,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 702.318176, 595.0, 285.0, 22.0 ],
 									"style" : "",
-									"text" : "150 150 150 180 200 200 180 200 200 230 200 200"
+									"text" : "100 100 100 70 70 70 70 50 255 35 255 255"
 								}
 
 							}
@@ -4349,7 +4349,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 120.0, 350.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "0"
+									"text" : "122"
 								}
 
 							}
@@ -4998,11 +4998,11 @@
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 965.5, 223.0, 222.0, 50.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 965.5, 223.0, 189.0, 50.0 ],
 					"style" : "",
-					"text" : "imp.artnet.controller @auto 1 @unicast 1 @unicast_ip 127.0.0.1 @universe 0 @num_channels 112"
+					"text" : "imp.artnet.controller @unicast_ip 127.0.0.1 @universe 1 @num_channels 112"
 				}
 
 			}
@@ -5276,6 +5276,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
