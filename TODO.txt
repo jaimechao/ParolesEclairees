@@ -12,9 +12,26 @@ router.model
 	mettre la chose 000XXX directement dans le patcher toggle_liste_gestion
 	Solo éteint les Toggates pour pouvoir en réactiver qu'un seul, mais renvoyer liste si change de mode ?
 	Vrai reset, notamment Cycle et Random
+	Fader par router (ou par source ?)
+	Random de plusieurs lampes (plutôt que une qui change, plusieurs, en même temps, ou pas)
+	Prévisualisation (pré fader listening)
 visualisation.maxpat
 	rajouter un compresseur sur l'alpha du visu jsui des lampes
 déclenchement par niveau
 	quand niveau constament au-dessus du seuil, banguer à intervalle fixe
 patch
 	Meilleur moyen de remplir le coll patch
+compare & levels
+	En plus de la comparaison High Value First, un mode additif et un mode soustractif, peut-être Low Value First
+Niveaux
+	compare & level ou router, avoir un fader/niveau par groupe de lampes (table, paroles, lampadaires)
+seuil
+	Plusieurs sorties (voir 3 ligne dernier todo)
+
+Fonction directe pour inverser, Louis éclaire Jaime et vice versa
+
+Pouvoir mettre du drunk sur tous les paramètres
+
+Visualisation bi-écran, l'écran du portable avec un contrôle clavier, le deuxième pour patcher les sources, effets, routers ensemble.
+Envoyer la sortie de seuil ou autre sur les routers
+Quitter les menus déroulants d'adresse pour tirer directement des cables de boîte en boîte ? bof, mieux à trouver
