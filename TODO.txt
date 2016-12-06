@@ -1,4 +1,14 @@
-﻿IHM
+﻿slider genre switch A/B pour que Jaime passe d'une lampe à l'autre à côté
+
+Inertie sur le lampes, genre quand Jaime éteint Louis, le noir reste un peu et remonte lentement
+
+Régler niveaux P2 et P3
+
+Chase lancé par Louis pour l'orage, qui circule aller-retour sur les pins, de plus en plus grand
+
+Polyrythmie, même source sur plusieurs lampes avec niveaux différents
+
+IHM
 	Controle des boutons avec touches du clavier, envoyer des cue
 umenu
 	supprimer dans l'adresse "main/"
