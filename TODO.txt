@@ -11,7 +11,6 @@ Polyrythmie, même source sur plusieurs lampes avec niveaux différents
 IHM
 	Controle des boutons avec touches du clavier, envoyer des cue
 umenu
-	supprimer dans l'adresse "main/"
 	filtrer le namespace par tag
 scaler.model
 	x (init) cassé valeur min et max inversées

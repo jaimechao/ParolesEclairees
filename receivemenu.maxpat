@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 67.0, 109.0, 332.0, 459.0 ],
+		"rect" : [ 142.0, 148.0, 332.0, 402.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,9 +56,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 16.5, 12.0, 111.0, 22.0 ],
+					"patching_rect" : [ 16.5, 12.0, 121.0, 22.0 ],
 					"style" : "",
-					"text" : "j.message address"
+					"text" : "j.message inaddress"
 				}
 
 			}
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.5, 323.0, 101.0, 22.0 ],
+					"patching_rect" : [ 97.5, 293.0, 101.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend address"
 				}
@@ -82,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 97.5, 367.0, 55.0, 22.0 ],
+					"patching_rect" : [ 97.5, 325.0, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "j.receive"
 				}
@@ -95,7 +95,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.5, 413.0, 30.0, 30.0 ],
+					"patching_rect" : [ 97.5, 359.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -107,7 +107,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 97.5, 286.0, 49.0, 22.0 ],
+					"patching_rect" : [ 97.5, 260.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "zl.nth 2"
 				}
@@ -120,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.5, 244.0, 145.0, 22.0 ],
+					"patching_rect" : [ 97.5, 229.0, 145.0, 22.0 ],
 					"style" : "",
 					"text" : "fromsymbol @separator :"
 				}
@@ -133,9 +133,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 57.0, 105.0, 50.0, 22.0 ],
+					"patching_rect" : [ 57.0, 101.0, 265.0, 22.0 ],
 					"style" : "",
-					"text" : "explore"
+					"text" : "filter/set MF part toggate mode exclude, explore"
 				}
 
 			}
@@ -156,13 +156,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-45",
-					"items" : [ "main/adc.jaime/output", ",", "main/adc.louis/output", ",", "main/delay.1/output", ",", "main/delay/output", ",", "main/input.clement", ",", "main/input.random", ",", "main/mapper.louis/output", ",", "main/router.1/output", ",", "main/router.1/toggate.1/down", ",", "main/router.1/toggate.1/up", ",", "main/router.1/toggate.10/down", ",", "main/router.1/toggate.10/up", ",", "main/router.1/toggate.11/down", ",", "main/router.1/toggate.11/up", ",", "main/router.1/toggate.2/down", ",", "main/router.1/toggate.2/up", ",", "main/router.1/toggate.3/down", ",", "main/router.1/toggate.3/up", ",", "main/router.1/toggate.4/down", ",", "main/router.1/toggate.4/up", ",", "main/router.1/toggate.5/down", ",", "main/router.1/toggate.5/up", ",", "main/router.1/toggate.6/down", ",", "main/router.1/toggate.6/up", ",", "main/router.1/toggate.7/down", ",", "main/router.1/toggate.7/up", ",", "main/router.1/toggate.8/down", ",", "main/router.1/toggate.8/up", ",", "main/router.1/toggate.9/down", ",", "main/router.1/toggate.9/up", ",", "main/router.1/toggate/down", ",", "main/router.1/toggate/up", ",", "main/router.2/output", ",", "main/router.2/toggate.1/down", ",", "main/router.2/toggate.1/up", ",", "main/router.2/toggate.10/down", ",", "main/router.2/toggate.10/up", ",", "main/router.2/toggate.11/down", ",", "main/router.2/toggate.11/up", ",", "main/router.2/toggate.2/down", ",", "main/router.2/toggate.2/up", ",", "main/router.2/toggate.3/down", ",", "main/router.2/toggate.3/up", ",", "main/router.2/toggate.4/down", ",", "main/router.2/toggate.4/up", ",", "main/router.2/toggate.5/down", ",", "main/router.2/toggate.5/up", ",", "main/router.2/toggate.6/down", ",", "main/router.2/toggate.6/up", ",", "main/router.2/toggate.7/down", ",", "main/router.2/toggate.7/up", ",", "main/router.2/toggate.8/down", ",", "main/router.2/toggate.8/up", ",", "main/router.2/toggate.9/down", ",", "main/router.2/toggate.9/up", ",", "main/router.2/toggate/down", ",", "main/router.2/toggate/up", ",", "main/router.clement/output", ",", "main/router.clement/toggate.1/down", ",", "main/router.clement/toggate.1/up", ",", "main/router.clement/toggate.10/down", ",", "main/router.clement/toggate.10/up", ",", "main/router.clement/toggate.11/down", ",", "main/router.clement/toggate.11/up", ",", "main/router.clement/toggate.2/down", ",", "main/router.clement/toggate.2/up", ",", "main/router.clement/toggate.3/down", ",", "main/router.clement/toggate.3/up", ",", "main/router.clement/toggate.4/down", ",", "main/router.clement/toggate.4/up", ",", "main/router.clement/toggate.5/down", ",", "main/router.clement/toggate.5/up", ",", "main/router.clement/toggate.6/down", ",", "main/router.clement/toggate.6/up", ",", "main/router.clement/toggate.7/down", ",", "main/router.clement/toggate.7/up", ",", "main/router.clement/toggate.8/down", ",", "main/router.clement/toggate.8/up", ",", "main/router.clement/toggate.9/down", ",", "main/router.clement/toggate.9/up", ",", "main/router.clement/toggate/down", ",", "main/router.clement/toggate/up", ",", "main/router.jaime/output", ",", "main/router.jaime/toggate.1/down", ",", "main/router.jaime/toggate.1/up", ",", "main/router.jaime/toggate.10/down", ",", "main/router.jaime/toggate.10/up", ",", "main/router.jaime/toggate.11/down", ",", "main/router.jaime/toggate.11/up", ",", "main/router.jaime/toggate.2/down", ",", "main/router.jaime/toggate.2/up", ",", "main/router.jaime/toggate.3/down", ",", "main/router.jaime/toggate.3/up", ",", "main/router.jaime/toggate.4/down", ",", "main/router.jaime/toggate.4/up", ",", "main/router.jaime/toggate.5/down", ",", "main/router.jaime/toggate.5/up", ",", "main/router.jaime/toggate.6/down", ",", "main/router.jaime/toggate.6/up", ",", "main/router.jaime/toggate.7/down", ",", "main/router.jaime/toggate.7/up", ",", "main/router.jaime/toggate.8/down", ",", "main/router.jaime/toggate.8/up", ",", "main/router.jaime/toggate.9/down", ",", "main/router.jaime/toggate.9/up", ",", "main/router.jaime/toggate/down", ",", "main/router.jaime/toggate/up", ",", "main/router.louis/output", ",", "main/router.louis/toggate.1/down", ",", "main/router.louis/toggate.1/up", ",", "main/router.louis/toggate.10/down", ",", "main/router.louis/toggate.10/up", ",", "main/router.louis/toggate.11/down", ",", "main/router.louis/toggate.11/up", ",", "main/router.louis/toggate.2/down", ",", "main/router.louis/toggate.2/up", ",", "main/router.louis/toggate.3/down", ",", "main/router.louis/toggate.3/up", ",", "main/router.louis/toggate.4/down", ",", "main/router.louis/toggate.4/up", ",", "main/router.louis/toggate.5/down", ",", "main/router.louis/toggate.5/up", ",", "main/router.louis/toggate.6/down", ",", "main/router.louis/toggate.6/up", ",", "main/router.louis/toggate.7/down", ",", "main/router.louis/toggate.7/up", ",", "main/router.louis/toggate.8/down", ",", "main/router.louis/toggate.8/up", ",", "main/router.louis/toggate.9/down", ",", "main/router.louis/toggate.9/up", ",", "main/router.louis/toggate/down", ",", "main/router.louis/toggate/up", ",", "main/scaler.jaime/output", ",", "main/scaler.louis/output" ],
+					"items" : [ "adc.jaime/output", ",", "adc.louish/output", ",", "adc.louisl/output", ",", "delay.1/output", ",", "delay/output", ",", "input.clement", ",", "input.clement2", ",", "input.random", ",", "input.sub", ",", "mapper.louis/output", ",", "router.1/output", ",", "router.2/output", ",", "router.clement/output", ",", "router.jaime/output", ",", "router.louis/output", ",", "scaler.jaime/output", ",", "scaler.louis/output", ",", "slidlist.1/output", ",", "slidlist.2/output", ",", "slidlist.3/output", ",", "slidlist/output" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 57.0, 200.0, 100.0, 22.0 ],
+					"patching_rect" : [ 57.0, 192.0, 100.0, 22.0 ],
 					"prefix" : "C:/",
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 0.0, 100.0, 22.0 ],
@@ -179,9 +179,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 57.0, 144.0, 236.0, 35.0 ],
+					"patching_rect" : [ 57.0, 136.0, 217.0, 36.0 ],
 					"style" : "",
-					"text" : "j.namespace @address / @format umenu @filter/list return @update 0"
+					"text" : "j.namespace @address /main @format umenu @filter/list return @update 0"
 				}
 
 			}
@@ -254,7 +254,7 @@
 					"destination" : [ "obj-45", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 26.0, 187.0, 66.5, 187.0 ],
+					"midpoints" : [ 26.0, 182.0, 66.5, 182.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -279,19 +279,19 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "j.namespace.mxo",
-				"type" : "iLaX"
+				"name" : "j.namespace.mxe",
+				"type" : "iLaF"
 			}
 , 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
+				"name" : "j.receive.mxe",
+				"type" : "iLaF"
 			}
 , 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
+				"name" : "j.message.mxe",
+				"type" : "iLaF"
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
